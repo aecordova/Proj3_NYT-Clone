@@ -1,0 +1,36 @@
+header {
+	text-align: center;
+	border-bottom: 1px solid lightgray;
+	padding: 7px;
+}
+
+header > div {
+	display: inline-block;
+}
+
+.hdr_left {
+	float: left;
+}
+
+.hdr_right {
+	float: right;
+}
+
+.icon {
+	width: 16px;
+	margin-right: 20px;
+}
+
+.hdr_subject {
+    text-decoration: none;
+    color: black;
+	font-weight: bold;
+}
+
+.hdr_subject:hover {
+	text-decoration: underline;
+}
+
+.logo {
+	height: 26px;
+}
