@@ -182,3 +182,22 @@ article{
 .credit a:hover {
 	text-decoration: none;
 }
+
+footer.credit{
+	font-size: .8em;
+	margin: 32px 0;
+}
+footer.credit div{
+	margin: 32px 0;
+
+
+}
+footer button{
+	display:inline-block;
+	margin-top:5px;
+	width:330px;	
+}
+footer.credit .meta_btns{
+	display:inline-block;
+	float: right;
+}
