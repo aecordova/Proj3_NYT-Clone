@@ -25,16 +25,12 @@ header > div {
 button {
     border-radius: 3px;
     cursor: pointer;
-    vertical-align: middle;
     background-color: #567b95;
     border: 1px solid #326891;
     color: #fff;
     font-size: 11px;
     line-height: 11px;
     font-weight: 700;
-    -webkit-letter-spacing: 0.05em;
-    -moz-letter-spacing: 0.05em;
-    -ms-letter-spacing: 0.05em;
     letter-spacing: 0.05em;
     padding: 11px 12px 8px;
 }
@@ -110,6 +106,7 @@ article{
     text-align: center;
     padding-top: 10px;
 	border: 1px solid lightgray;
+	cursor: pointer;
 }
 .meta_btn:hover{
 	background-color: white;
@@ -187,17 +184,25 @@ footer.credit{
 	font-size: .8em;
 	margin: 32px 0;
 }
-footer.credit div{
+
+.meta_line {
 	margin: 32px 0;
-
-
 }
+
 footer button{
-	display:inline-block;
-	margin-top:5px;
-	width:330px;	
+	width:330px;
+	height: 45px;
+	font-size: inherit;
 }
-footer.credit .meta_btns{
-	display:inline-block;
-	float: right;
+
+.meta_line .meta_btn img {
+	width: 20px;
+	height: 15px;
+	margin-top: -2px;
+}
+
+.meta_line .meta_btn{
+	width: 30px;
+	height: 20px;
+	margin-left: 15px;
 }
