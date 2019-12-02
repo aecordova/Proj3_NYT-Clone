@@ -217,8 +217,12 @@ caption {
 	width: 100%;
 }
 
-.table_related {
-	width: 70%;
+.more_in {
+	width: 70%;    
+	border-top: 1px solid gray;
+    margin-top: 25px;
+    margin-left: 15px;
+    box-sizing: border-box;
 }
 
 .img_row td{
