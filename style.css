@@ -1,3 +1,6 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
 
 /*    Header    */
 header {
@@ -45,7 +48,6 @@ button {
     text-decoration: none;
     color: black;
 	font-weight: bold;
-	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 }
 
@@ -64,7 +66,8 @@ article{
     margin: 0 20%;
 }
 .article_hdr{
-    font-style: italic;
+	font-style: italic;
+	font-size: xx-large;
 }
 .hdr_container{
     width: 100%;
@@ -76,6 +79,42 @@ article{
 }
 .img_ftr{
     text-align: left;
-    color: gray;
+	color: #666;
+	margin-top: 0;
+}
+.credit{
+	color: gray;
+}
+.author {
+	font-weight: bold;
+}
+.date {
+	font-size: smaller;
+	color: #333;
+}
+.meta_line > *{
+ display: inline-block;
+}
+.meta_btns {
+	float: right;
+}
+.meta_btn {
+	background-color: lightgray;
+    border-radius: 50%;
+    width: 30px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+	border: 1px solid lightgray;
+}
+.meta_btn:hover{
+	background-color: white;
 }
 
+.bookmark_btn{
+	display: inline-block;
+    padding-left: 8px;
+    margin-top: 5px;
+    position: absolute;
+}
