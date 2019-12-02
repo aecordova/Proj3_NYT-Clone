@@ -206,3 +206,39 @@ footer button{
 	height: 20px;
 	margin-left: 15px;
 }
+
+/* Related articles */
+caption {
+	text-align: left;
+	font-weight: bold;
+}
+
+.table_related img{
+	width: 100%;
+}
+
+.table_related {
+	width: 70%;
+}
+
+.img_row td{
+	padding: 5px 10px 0px 10px;
+}
+
+.credit_row td{
+	padding: 0 10px;
+	vertical-align: top;
+	font-size: 0.7em;
+}
+
+.txt_row td {
+	padding: 0 10px;
+}
+
+.table_related .credit {
+	text-align: right;
+}
+
+.table_related .date {
+	color: gray;
+}
