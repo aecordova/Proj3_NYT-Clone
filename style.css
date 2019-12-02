@@ -1,3 +1,5 @@
+
+/*    Header    */
 header {
 	text-align: center;
 	border-bottom: 1px solid lightgray;
@@ -54,3 +56,26 @@ button {
 .logo {
 	height: 26px;
 }
+
+/*  Article */
+
+article{
+    width:60%;
+    margin: 0 20%;
+}
+.article_hdr{
+    font-style: italic;
+}
+.hdr_container{
+    width: 100%;
+    text-align: center;
+}
+.art_hdr_img{
+    display: inline-block;
+    width: 100%;
+}
+.img_ftr{
+    text-align: left;
+    color: gray;
+}
+
