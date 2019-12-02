@@ -118,3 +118,38 @@ article{
     margin-top: 5px;
     position: absolute;
 }
+
+.theory img, .theory table {
+	width: 770px;
+	height: 648px;
+}
+
+.theory img {
+	position: absolute;
+	z-index: -1;
+}
+
+.theory td {
+	vertical-align: bottom;
+	font-size: smaller;
+	padding-bottom: 25px;
+}
+
+.theory h2 {
+	margin-bottom: 5px;
+}
+
+.subtitle {
+	font-size: 15px;
+	color: gray;
+	margin-top: 0;
+}
+
+.theory hr {
+	width: 70px;
+	float: left;
+}
+.theory_author {
+	display: block;
+	clear: left;
+}
