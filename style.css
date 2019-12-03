@@ -208,6 +208,10 @@ footer button{
 }
 
 /* Related articles */
+h3 {
+	font-size: 1em;
+}
+
 caption {
 	text-align: left;
 	font-weight: bold;
@@ -218,7 +222,7 @@ caption {
 }
 
 .more_in {
-	width: 70%;    
+	width: 65%;    
 	border-top: 1px solid gray;
     margin-top: 25px;
     margin-left: 15px;
@@ -245,4 +249,21 @@ caption {
 
 .table_related .date {
 	color: gray;
+}
+
+.most-popular {
+	width: 30%;
+	float: right;
+	padding: 0 20px 0 15px;
+}
+
+.most-popular ul {
+	list-style: none;
+	padding: 0;
+}
+
+.most-popular li {
+	border-top: 1px solid lightgray;
+	padding: 15px 0 15px 10px;
+	font-size: 1.1em;
 }
