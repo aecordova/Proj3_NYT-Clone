@@ -270,6 +270,8 @@ caption {
 /*  Page Footer Table*/
 footer{
 	margin: 20px;
+	border-bottom: 1px solid lightgrey;
+	padding-bottom: 12px;
 }
 footer::before{
 	content:" ";
@@ -283,13 +285,18 @@ footer::before{
 
 footer table{
 	width: 100%;
-	
+	border: none; 
+	border-collapse: collapse; 
 }
 footer table th{
 	font-size: 11px;
 	color: rgb(86,123,149);
 	font-weight: 400;
 }
+footer table td:nth-child(6) { 
+	border-left: 1px solid lightgrey;
+	padding-left: 15px; 
+} 
 
 .link_hdrs{
 	text-transform:uppercase;
@@ -299,21 +306,34 @@ footer table th{
 .link_hdrs td{
 	padding-bottom: 12px;
 }
+tr{
+	height: 30px;
+}
 footer a{
 	text-decoration: none;
 	color: black;
 	text-transform: capitalize;
 }
-.suscribe_links{
+.subscribe_links{
 	
 	font-weight: bold;
 	font-size: 1.2em;
 
 }
-.suscribe_links a{
+.subscribe_links a,.subscribe_links2 a{
 	display: block;
 }
-.suscribe_links img{
+.subscribe_links img{
 	height: 15px;
-
 }
+.subscribe_links2{
+	font-size: 12px;
+}
+.subscribe_links2 a{
+	padding-bottom: 12px;
+}
+.border_link{
+	border-bottom: 1px solid lightgrey;
+}
+
+
