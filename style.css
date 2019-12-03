@@ -267,13 +267,13 @@ caption {
 	padding: 15px 0 15px 10px;
 	font-size: 1.1em;
 }
-/*  Page Footer Table*/
-footer{
+/*  Page Footer Nav Table*/
+nav{
 	margin: 20px;
 	border-bottom: 1px solid lightgrey;
 	padding-bottom: 12px;
 }
-footer::before{
+nav::before{
 	content:" ";
 	width:100%;
 	display: block;
@@ -283,17 +283,17 @@ footer::before{
 	margin-bottom: 12px;
 }
 
-footer table{
+nav table{
 	width: 100%;
 	border: none; 
 	border-collapse: collapse; 
 }
-footer table th{
+nav table th{
 	font-size: 11px;
 	color: rgb(86,123,149);
 	font-weight: 400;
 }
-footer table td:nth-child(6) { 
+nav table td:nth-child(6) { 
 	border-left: 1px solid lightgrey;
 	padding-left: 15px; 
 } 
@@ -309,7 +309,7 @@ footer table td:nth-child(6) {
 tr{
 	height: 30px;
 }
-footer a{
+nav a{
 	text-decoration: none;
 	color: black;
 	text-transform: capitalize;
@@ -374,5 +374,25 @@ main {
 }
 
 .sidebar a:hover {
+	text-decoration: underline;
+}
+
+/* Footer */
+
+.page_footer {
+	margin: 0 auto 30px auto;
+	color: gray;
+	font-size: 12px;
+	width: fit-content;
+}
+
+.page_footer a {
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+	padding-left: 25px;
+}
+
+.page_footer a:hover {
 	text-decoration: underline;
 }
