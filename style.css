@@ -267,3 +267,53 @@ caption {
 	padding: 15px 0 15px 10px;
 	font-size: 1.1em;
 }
+/*  Page Footer Table*/
+footer{
+	margin: 20px;
+}
+footer::before{
+	content:" ";
+	width:100%;
+	display: block;
+	height: 2px;
+	border-top: 3px solid  lightgrey;
+	border-bottom: 1px solid lightgrey;
+	margin-bottom: 12px;
+}
+
+footer table{
+	width: 100%;
+	
+}
+footer table th{
+	font-size: 11px;
+	color: rgb(86,123,149);
+	font-weight: 400;
+}
+
+.link_hdrs{
+	text-transform:uppercase;
+	font-weight: bold;
+	margin-bottom: 12px;
+}
+.link_hdrs td{
+	padding-bottom: 12px;
+}
+footer a{
+	text-decoration: none;
+	color: black;
+	text-transform: capitalize;
+}
+.suscribe_links{
+	
+	font-weight: bold;
+	font-size: 1.2em;
+
+}
+.suscribe_links a{
+	display: block;
+}
+.suscribe_links img{
+	height: 15px;
+
+}
