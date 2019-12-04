@@ -1,5 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 /*  Header  */
@@ -8,10 +9,22 @@ header {
   border-bottom: 1px solid lightgray;
   padding: 7px;
   padding-top: 0;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+  width: 100%;
+  box-sizing: border-box;
+  padding-right: 20px;
+  padding-top: 10px;
 }
 
 header > div {
   display: inline-block;
+}
+
+.ham_button {
+  background-color: transparent;
+  border: 0;
 }
 
 .hdr_left {
@@ -354,6 +367,7 @@ tr {
 /* Sidebar */
 main {
   position: relative;
+  padding-top: 50px;
 }
 
 .sidebar {
@@ -423,4 +437,23 @@ main {
 
 .sidebar a:hover {
   text-decoration: underline;
+}
+
+/* Bottom bar */
+.bottom_bar {
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  z-index: 1;
+  width: 100%;
+  border-top: 1px solid gray;
+  padding-top: 15px;
+  box-sizing: border-box;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.bottom_bar div {
+  float: right;
 }
