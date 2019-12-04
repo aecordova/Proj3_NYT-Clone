@@ -7,15 +7,12 @@ body {
 header {
   text-align: center;
   border-bottom: 1px solid lightgray;
-  padding: 7px;
-  padding-top: 0;
   position: fixed;
   background-color: white;
   z-index: 1;
   width: 100%;
   box-sizing: border-box;
-  padding-right: 20px;
-  padding-top: 10px;
+  padding: 10px 20px 7px 7px;
 }
 
 header > div {
