@@ -1,0 +1,456 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/*  Header  */
+header {
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px 7px 7px;
+}
+
+header > div {
+  display: inline-block;
+}
+
+.ham_button {
+  background-color: transparent;
+  border: 0;
+}
+
+.hdr_left {
+  float: left;
+}
+
+.hdr_right {
+  float: right;
+}
+
+button {
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #567b95;
+  border: 1px solid #326891;
+  color: #fff;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 11px 12px 8px;
+}
+
+.icon {
+  width: 16px;
+  margin-right: 20px;
+}
+
+.hdr_subject {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.hdr_subject:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  height: 26px;
+}
+
+/*  Article */
+
+article {
+  width: 50%;
+  margin: 0 25%;
+}
+
+.article_txt > p {
+  font-size: 1.3em;
+}
+
+.article_hdr {
+  font-style: italic;
+  font-size: xx-large;
+}
+
+.hdr_container {
+  position: relative;
+  left: -20%;
+}
+
+.hdr_container > * {
+  width: 140%;
+}
+
+.img_ftr {
+  text-align: left;
+  color: #666;
+  margin-top: 0;
+}
+
+.credit {
+  color: gray;
+}
+
+.author {
+  font-weight: bold;
+}
+
+.date {
+  font-size: smaller;
+  color: #333;
+}
+
+.meta_line > * {
+  display: inline-block;
+}
+
+.meta_btns {
+  float: right;
+}
+
+.meta_btn {
+  background-color: lightgray;
+  border-radius: 50%;
+  width: 30px;
+  height: 25px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 10px;
+  border: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.meta_btn:hover {
+  background-color: white;
+}
+
+.bookmark_btn {
+  display: inline-block;
+  padding-left: 8px;
+  margin-top: 5px;
+  position: absolute;
+}
+
+.theory img,
+.theory table {
+  width: 770px;
+  height: 648px;
+}
+
+.theory img {
+  position: absolute;
+  z-index: -1;
+}
+
+.theory td {
+  vertical-align: bottom;
+  font-size: smaller;
+  padding-bottom: 25px;
+}
+
+.theory h2 {
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: gray;
+  margin-top: 0;
+}
+
+.theory hr {
+  width: 70px;
+  float: left;
+}
+
+.theory_author {
+  display: block;
+  clear: left;
+}
+
+.video {
+  text-align: center;
+}
+
+.video .img_ftr {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.art_img {
+  position: relative;
+  left: -5%;
+}
+
+.art_img > * {
+  width: 110%;
+}
+
+.credit a {
+  color: inherit;
+}
+
+footer.credit {
+  font-size: 0.8em;
+  margin: 32px 0;
+}
+
+.meta_line {
+  margin: 32px 0;
+}
+
+footer button {
+  width: 330px;
+  height: 45px;
+  font-size: inherit;
+}
+
+.table_related img {
+  width: 100%;
+}
+
+.meta_line .meta_btn {
+  width: 30px;
+  height: 20px;
+  margin-left: 15px;
+}
+
+/* Related articles */
+h3 {
+  font-size: 1em;
+}
+
+caption {
+  text-align: left;
+  font-weight: bold;
+}
+
+.more_in {
+  width: 65%;
+  border-top: 1px solid gray;
+  margin-top: 25px;
+  margin-left: 15px;
+  box-sizing: border-box;
+}
+
+.img_row td {
+  padding: 5px 10px 0 10px;
+}
+
+.credit_row td {
+  padding: 0 10px;
+  vertical-align: top;
+  font-size: 0.7em;
+}
+
+.txt_row td {
+  padding: 0 10px;
+}
+
+.table_related .credit {
+  text-align: right;
+}
+
+.table_related .date {
+  color: gray;
+}
+
+.most-popular {
+  width: 30%;
+  float: right;
+  padding: 0 20px 0 15px;
+}
+
+.most-popular ul {
+  list-style: none;
+  padding: 0;
+}
+
+.most-popular li {
+  border-top: 1px solid lightgray;
+  padding: 15px 0 15px 10px;
+  font-size: 1.1em;
+}
+
+/*  Page Footer Nav Table */
+nav {
+  margin: 20px;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 12px;
+}
+
+nav::before {
+  content: " ";
+  width: 100%;
+  display: block;
+  height: 2px;
+  border-top: 3px solid  lightgrey;
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 12px;
+}
+
+.nav table {
+  width: 100%;
+  border: none;
+  border-collapse: collapse;
+}
+
+nav table th {
+  font-size: 11px;
+  color: rgb(86, 123, 149);
+  font-weight: 400;
+}
+
+.link_hdrs td {
+  padding-bottom: 12px;
+}
+
+nav table td:nth-child(6) {
+  border-left: 1px solid lightgrey;
+  padding-left: 15px;
+}
+
+.link_hdrs {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+tr {
+  height: 30px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+}
+
+.subscribe_links {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.subscribe_links a,
+.subscribe_links2 a {
+  display: block;
+}
+
+.subscribe_links img {
+  height: 15px;
+}
+
+.subscribe_links2 {
+  font-size: 12px;
+}
+
+.subscribe_links2 a {
+  padding-bottom: 12px;
+}
+
+.border_link {
+  border-bottom: 1px solid lightgrey;
+}
+
+/* Sidebar */
+main {
+  position: relative;
+  padding-top: 50px;
+}
+
+.sidebar {
+  position: absolute;
+  width: 20%;
+  right: 20px;
+  top: 50%;
+}
+
+.sidebar img {
+  width: 75px;
+  display: inline-block;
+  float: left;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  display: block;
+  height: 75px;
+  padding-bottom: 10px;
+}
+
+.sidebar h3 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 3% 0 3% 85px;
+}
+
+/* Footer */
+.page_footer {
+  margin: 0 auto 30px auto;
+  color: gray;
+  font-size: 12px;
+  width: fit-content;
+}
+
+.page_footer a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  padding-left: 25px;
+}
+
+.page_footer a:hover {
+  text-decoration: underline;
+}
+
+.credit a:hover {
+  text-decoration: none;
+}
+
+.meta_line .meta_btn img {
+  width: 20px;
+  height: 15px;
+  margin-top: -2px;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+/* Bottom bar */
+.bottom_bar {
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  z-index: 1;
+  width: 100%;
+  border-top: 1px solid gray;
+  padding-top: 15px;
+  box-sizing: border-box;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.bottom_bar div {
+  float: right;
+}
